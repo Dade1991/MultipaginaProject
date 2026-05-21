@@ -102,6 +102,7 @@ nav > a {
 }
 
 .btnAdditionalInfo {
+  margin-top: 20px;
   background-color: #ff7e5f;
   color: white;
   border-radius: 40px;

@@ -1,39 +1,3 @@
-/* body {
-  margin: 0;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background: linear-gradient(to right, #ff7e5f, #feb47b);
-  color: white;
-} */
-
-/* HEADER */
-/* header{
-    grid-area:header;
-    background: rgb(190, 43, 226);
-    color:white;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    height:70px;
-    box-shadow:0 4px 8px rgba(0,0,0,0.4);
-} */
-
-/* #navContainer {
-  display: flex;
-  gap: 30px;
-} */
-
-/* #navContainer a {
-  background: #ff7e5f;
-  color: white;
-  text-decoration: none;
-  padding: 6px 16px;
-  border-radius: 40px;
-  font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-} */
-
 /* MAIN */
 main {
   overflow: hidden;
@@ -49,35 +13,43 @@ main {
   height: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 
 /* BOX STYLE (stile card del tuo esempio) */
 #form_container,
 #contact,
 #image_contact {
-  width: 100%;
-  height: 100%;
-  padding: 30px;
+  min-width: 180px;
+  padding: 20px;
   margin: 0;
   background: linear-gradient(
     to right,
-    rgb(190, 43, 226),
+    rgba(189, 43, 226, 0.548),
     rgba(194, 135, 209, 0.6)
   );
-  border: 1px solid black;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  color: white;
+  border: solid black 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
+  color: white;
+}
+
+h2 {
+  margin: 0px 0px 20px 0px;
 }
 
 /* CENTRATURA CONTENUTI */
 #form_container,
-#contact {
+#contact,
+#image_contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 15px;
   text-align: right;
 }
 
@@ -96,18 +68,20 @@ textarea {
   border: none;
   border-radius: 10px;
   outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
 }
 
 /* BUTTON stile tuo */
 button {
-  background: #ff7e5f;
+  margin-top: 20px;
+  background-color: #ff7e5f;
   color: white;
-  border: none;
-  padding: 10px 15px;
   border-radius: 40px;
+  padding: 15px 15px;
+  border: none;
   font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 /* CONTACT TEXT */
@@ -116,16 +90,23 @@ button {
 }
 
 /* IMMAGINE */
-#image_contact {
-  padding: 0;
+.infoImgContainer {
+  /* min-width: 180px; */
+  width: 250px;
+  height: 200px;
   overflow: hidden;
+  background-position: center;
+  border-radius: 5px;
+  align-self: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
 }
 
-#image_contact img {
+.infoImgItself {
   width: 100%;
   height: 100%;
+  background-repeat: no-repeat;
+  object-fit: contain;
   object-fit: cover;
-  opacity: 0.85;
 }
 
 /* FOOTER */
