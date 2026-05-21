@@ -1,82 +1,57 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info</title>
+    <link rel="stylesheet" href="../css/styles_info.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Info</title>
-  <link rel="stylesheet" href="/css/styles_info.css" />
-  <link rel="stylesheet" href="/css/styles.css" />
-</head>
-
-<body>
-  <header>
-    <nav id="navContainer">
+  <body>
+    <header>
+      <nav id="navContainer">
         <a href="./Homepage.html">Homepage</a>
         <a href="./Info.html">Info</a>
         <a href="./Prodotti.html">Prodotti</a>
       </nav>
-  </header>
-  <main>
+    </header>
+    <main>
+      <div id="container_contact">
+        <div id="form_container">
+          <h2>Contattaci</h2>
 
-    <div id="container_contact">
+          <form id="form">
+            <input type="text" placeholder="Nome" />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Scrivi il tuo messaggio"></textarea>
 
-      <div id="form_container">
+            <button type="submit">Invia</button>
+          </form>
+        </div>
 
-        <h2>Contattaci</h2>
+        <!-- CONTATTI -->
+        <div id="contact">
+          <h2>Informazioni</h2>
 
-        <form id="form">
+          <div class="contact-item">📍 Via Roma 123, Milano</div>
 
-          <input type="text" placeholder="Nome">
-          <input type="email" placeholder="Email">
-          <textarea placeholder="Scrivi il tuo messaggio"></textarea>
+          <div class="contact-item">📞 +39 333 1234567</div>
 
-          <button type="submit">Invia</button>
+          <div class="contact-item">✉ info@email.com</div>
 
-        </form>
+          <div class="contact-item">🕒 Lun - Ven: 09:00 - 18:00</div>
+        </div>
 
+        <!-- IMMAGINE -->
+        <div id="image_contact">
+          <img src="/images/info.png" alt="contact image" />
+        </div>
       </div>
-
-      <!-- CONTATTI -->
-      <div id="contact">
-
-        <h2>Informazioni</h2>
-
-        <div class="contact-item">
-          📍 Via Roma 123, Milano
-        </div>
-
-        <div class="contact-item">
-          📞 +39 333 1234567
-        </div>
-
-        <div class="contact-item">
-          ✉ info@email.com
-        </div>
-
-        <div class="contact-item">
-          🕒 Lun - Ven: 09:00 - 18:00
-        </div>
-
-      </div>
-
-      <!-- IMMAGINE -->
-      <div id="image_contact">
-
-        <img src="/images/info.png" alt="contact image">
-
-      </div>
-
-    </div>
-
-
-
-  </main>
-  <footer>
-    <p>All right reserved to ProDeveloperGroup &copy;<strong>2026</strong></p>
-  </footer>
-
-</body>
-<script src="/js/main.js"></script>
-
+    </main>
+    <footer>
+      <p>All right reserved to ProDeveloperGroup &copy;<strong>2026</strong></p>
+    </footer>
+  </body>
+  <script src="/js/main.js"></script>
 </html>
