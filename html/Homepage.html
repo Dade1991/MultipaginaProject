@@ -1,47 +1,52 @@
 <!doctype html>
 <html lang="it">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafoglio di una azienda </title>
-    <link rel="stylesheet" href="styles.css" />
 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafoglio di una azienda </title>
+  <link rel="stylesheet" href="/css/styles.css" />
 
-  <body>
+</head>
+
+<body>
   <!-- BLOCCO 1: Header e menu di navigazione -->
-  <header> <!-- intestazione della pagina -->
+  <header>
+    <img>
+    <nav id="navContainer">
+      <div class="logo_container"><a href="Homepage.html"><img class="logo" src=""></a>
+      </div>
 
-  <nav id="navigazione"> <!-- contenitore del menu principale -->
-      <button id="btnMenu">☰</button> <!-- pulsante hamburger per dispositivi mobili -->
-
-      <ul id="vociNavigazione"> <!-- elenco delle voci del menu -->
-        <li><a href="index.html">Home</a></li> <!-- voce: pagina principale -->
-        <li><a href="prodotti.html">Prodotti</a></li> // "
-        <li><a href="info.html">Informazioni</a></li>  //"
-      </ul>
+      <div id="nav_link">
+        <a href="Homepage.html">HOME</a>
+        <a href="Prodotti.html">PRODOTTI</a>
+        <a href="Info.html">INFO</a>
+      </div>
     </nav>
   </header>
+  <main>
 
 
-  <!-- BLOCCO 2: Sezione introduttiva -->
-  <section id="intro"> <!-- sezione di benvenuto -->
-    <h1>Benvenuto nel Portfolio della nostra azienda</h1> 
-    <p>Scopri i nostri prodotti e la nostra storia. Un sito creato per mostrare competenze e creatività.</p> <!-- paragrafo introduttivo -->
-  </section>
+    <!-- BLOCCO 2: Sezione introduttiva -->
+    <section id="intro"> <!-- sezione di benvenuto -->
+      <h1>Benvenuto nel Portfolio della nostra azienda</h1>
+      <p>Scopri i nostri prodotti e la nostra storia. Un sito creato per mostrare competenze e creatività.</p>
+      <!-- paragrafo introduttivo -->
+    </section>
 
-  <!-- BLOCCO 3: Presentazione azienda -->
-  <section id="presentazione"> <!-- sezione di presentazione -->
-  <h2>Chi siamo</h2> 
-  <p>Siamo un’azienda inventata (?)</p> <!-- descrizione -->
-  </section>
+    <!-- BLOCCO 3: Presentazione azienda -->
+    <section id="presentazione"> <!-- sezione di presentazione -->
+      <h2>Chi siamo</h2>
+      <p>Siamo un’azienda inventata (?)</p> <!-- descrizione -->
+    </section>
 
-  <!--BLOCCO 4: Footer -->
-  <footer> <!-- piè di pagina -->
-    <p> Portafoglio azienda - Tutti i diritti sono riservati</p>
+  </main>
+  <footer>
+
+    <p>All right reserved to ProDeveloperGroup &copy;<strong>2026</strong></p>
   </footer>
 
+</body>
+<script src="/js/main.js"></script>
 
-  </body>
-  <script src="main.js"></script>
 </html>
