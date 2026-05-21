@@ -37,7 +37,6 @@ main > p {
   );
   color: white;
   min-width: none;
-  max-width: 300px;
   display: flex;
   flex-direction: column;
   padding: 15px;
@@ -52,11 +51,15 @@ main > p {
 .card > h3 {
   margin: 10px 0px;
   text-align: end;
+  font-size: 1.6rem;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
 }
 
 .cardSubtitle {
   margin: 10px 0px;
   text-align: end;
+  font-weight: 900;
+  font-style: oblique;
 }
 
 .cardDescription {
@@ -72,6 +75,7 @@ main > p {
   border-radius: 5px;
   align-self: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
+  margin: 20px auto;
 }
 
 .imgItself {
