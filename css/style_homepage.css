@@ -1,50 +1,40 @@
-main{
-    display:flex;
-    flex-direction:column;
-    overflow-y: scroll
-}
+#intro {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-/* HERO INTRO */
-#intro{
-    min-height:60vh;
+  text-align: center;
+  color: white;
 
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
-    color:white;
-
-    padding:40px;
-
-    background-image:url("/images/hero.jpg"); /* cambia immagine */
-    background-size:cover;
-    background-position:center;
-    position:relative;
+  /* background-image: url("/images/hero.jpg"); cambia immagine */
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 /* overlay scuro per leggibilità */
-#intro::before{
-    content:"";
-    position:absolute;
-    inset:0;
-    background:rgba(0,0,0,0.5);
+#intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  /* background: rgba(0, 0, 0, 0.5); */
 }
 
 #intro h1,
-#intro p{
-    position:relative;
-    z-index:1;
+#intro p {
+  position: relative;
+  z-index: 1;
 }
 
 /* SECONDA SEZIONE */
-#presentazione{
-    padding:80px 20px;
-    text-align:center;
-    background:#f5f5f5;
+#presentazione {
+  text-align: center;
+  color: white;
+  /* background: #f5f5f5; */
 }
 
-#presentazione h2{
-    margin-bottom:20px;
+#presentazione h2 {
+  margin-bottom: 20px;
 }
