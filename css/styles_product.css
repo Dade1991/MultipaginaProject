@@ -18,26 +18,6 @@ main > p {
   color: white;
 }
 
-nav {
-  background-color: rgb(190, 43, 226);
-  height: 50px;
-  align-content: center;
-  text-align: end;
-  padding: 10px 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
-}
-
-nav > a {
-  background-color: #ff7e5f;
-  color: white;
-  border-radius: 40px;
-  padding: 5px 15px;
-  text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.637);
-  cursor: pointer;
-}
-
 #mainContainer {
   padding: 20px;
   margin-bottom: 50px;

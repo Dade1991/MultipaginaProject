@@ -67,3 +67,8 @@ footer {
 footer > p {
   margin: 0px;
 }
+
+footer > p > strong {
+  color: #f78d73;
+  text-shadow: 2px 2px 5px black;
+}
